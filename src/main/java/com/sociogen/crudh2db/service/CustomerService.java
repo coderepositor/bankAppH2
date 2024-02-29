@@ -14,4 +14,8 @@ public interface CustomerService {
 	List <Customer> getAllCustomer();
 	
 	Customer getCustomberById(long customerId);
+	
+	Customer getCustomerByName(String cname);
+	
+	List<Customer> applyTogglz(List<Customer> availableCustomers);
 }
